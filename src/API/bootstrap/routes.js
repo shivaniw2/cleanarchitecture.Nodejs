@@ -1,8 +1,8 @@
 const express = require('express');
 
-const workspace = require('../routers/workspace');
-const user = require('./../routers/user');
-const token = require('./../routers/token');
+const workspace = require('../controller/workspaceController');
+const user = require('../controller/userController');
+const token = require('../controller/tokenController');
 
 module.exports = function(app){
     app.use(express.json());

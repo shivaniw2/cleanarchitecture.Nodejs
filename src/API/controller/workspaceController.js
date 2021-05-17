@@ -3,8 +3,8 @@ const express = require('express');
 const router = express.Router();
 const locator = require('servicelocator');
 const validatorMiddleware = require('../../application/common/middleware/workspaceCommandValidatorMiddleware');
-const CommandType = require('./../../application/common/constant');
-const {logger} = require('./../../infrastucture/services/logger/configureLogger');
+const CommandType = require('../../application/common/constant');
+const {logger} = require('../../infrastucture/services/logger/configureLogger');
 const authMiddleware = require('../../application/common/middleware/authMiddleware');
 
 

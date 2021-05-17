@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const {logger} = require('./../../infrastucture/services/logger/configureLogger');
+const {logger} = require('../../infrastucture/services/logger/configureLogger');
 const config = require('config');
 const bcrypt = require('bcrypt');
 const locator = require('servicelocator');
@@ -24,6 +24,7 @@ router.post('/', async (req, res) => {
     }
     catch(err)
     {
+        res.status(500).send('Error occurred');
         console.log('Error occurred', err);
     }
 });
