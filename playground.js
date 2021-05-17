@@ -64,3 +64,16 @@
 
 // // const a = new Workspace('id',new Date().toUTCString(), new Date().toUTCString(), 'workspaceName', 'location', ['a','b'], 'abc', 'active');
 // // console.log(a);
+
+//valid mongo id with joi
+
+// const Joi = require('Joi');
+// Joi.objectId = require('joi-objectid')(Joi)
+
+// const schema = Joi.object({
+//     id: Joi.objectId()
+//   })
+
+
+//   const result = schema.validate({id:'60a0e1830c2fdbdab09bced2'});
+//  console.log(result);

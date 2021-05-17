@@ -12,5 +12,5 @@ class UpdateWorkspaceHandler{
 }
 
 
-//Exporting update workspace event emitter
+//Exporting update workspace handler class
 module.exports = UpdateWorkspaceHandler;

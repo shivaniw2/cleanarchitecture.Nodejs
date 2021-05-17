@@ -12,5 +12,5 @@ class DeleteWorkspaceHandler{
 }
 
 
-//Exporting delete workspace event emitter
+//Exporting delete workspace handler class
 module.exports = DeleteWorkspaceHandler;

@@ -1,10 +1,9 @@
 
 
-const WorkspaceTypeEnum = Object.freeze(
-    {
-        "room":1,
-        "desk":2, 
+const WorkspaceTypeEnum = {
+        Room:'room',
+        Desk:'desk', 
     }
-)
+
 
 module.exports = WorkspaceTypeEnum;
