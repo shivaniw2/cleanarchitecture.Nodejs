@@ -4,7 +4,7 @@ const app = express();
 
 //bootstrap
 require('./src/API/bootstrap/routes')(app);
-require('./src/API/bootstrap/logger');
+require('./src/infrastucture/services/logger/configureLogger');
 require('./src/infrastucture/persistence/mongo/config/configuration')();
 require('./../cleanarchitecture.Nodejs/src/API/bootstrap/service-locator')();
 require('./src/infrastucture/persistence/bootstrap/service-locator')();

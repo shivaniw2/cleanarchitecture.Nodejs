@@ -1,8 +1,8 @@
 
-const CommandType = require('./../constant');
-const {validateCreateCommandPayload} = require('./../../workspace/commands/createWorkspaceCommand/createWorkspaceCommandValidator');
-const {validateUpdateCommandPayload} = require('./../../workspace/commands/updateWorkspaceCommand/updateWorkspaceCommandValidator');
-const {validateDeleteCommandPayload} = require('./../../workspace/commands/deleteWorksapceCommand/deleteWorkspaceCommandValidator');
+const CommandType = require('../constant');
+const {validateCreateCommandPayload} = require('../../workspace/commands/createWorkspaceCommand/createWorkspaceCommandValidator');
+const {validateUpdateCommandPayload} = require('../../workspace/commands/updateWorkspaceCommand/updateWorkspaceCommandValidator');
+const {validateDeleteCommandPayload} = require('../../workspace/commands/deleteWorksapceCommand/deleteWorkspaceCommandValidator');
 
 
 module.exports = function(req,res,next,commandType){
