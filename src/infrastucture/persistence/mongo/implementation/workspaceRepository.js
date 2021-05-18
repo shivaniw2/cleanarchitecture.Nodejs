@@ -1,6 +1,6 @@
 
 const {WorkspaceDto, workspaceSchema} = require('./../model/workspace');
-const iWorkspaceRepository = require('./../../../../application/workspace/interface/iWorkspaceRepository');
+const iWorkspaceRepository = require('./../../../../application/workspace/interfaces/iWorkspaceRepository');
 
 class WorkspaceRepository extends iWorkspaceRepository{
 

@@ -1,5 +1,5 @@
 const {User} = require('./../model/user');
-const iuserRepository = require('./../../../../application/workspace/interface/iuserRepository');
+const iuserRepository = require('./../../../../application/user/interfaces/iuserRepository');
 const bcrypt = require('bcrypt');
 
 class UserRepository extends iuserRepository{
